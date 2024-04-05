@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.myDiv {
+  background-color: #ffcc00;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FF6B3D;
+  font-weight: 700;
+
+}
+
+h2 {
+  margin-left: 0;
+  padding: 0;
+  font-family: poppins;
+  line-height: 144px;
+  text-align: left;
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0;
+
+}
+
+
+h1 {
+  margin-left: -2;
+  padding: 0;
+  font-family: poppins;
+  line-height: 96px;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.img {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+
+  padding-top: -1;
+  width: 1300px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
